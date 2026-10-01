@@ -1,0 +1,52 @@
+Licence scope
+=============
+
+This repository contains data under two licences. Which one applies depends on the file.
+
+  data/hsk-characters.json
+  data/hsk-characters.csv
+  data/summary.json
+      -> CC0 1.0 Universal (Public Domain Dedication)
+         https://creativecommons.org/publicdomain/zero/1.0/
+         No rights reserved. No attribution required.
+
+  data/hsk-words-by-level.json
+      -> MIT Licence (text below), because the HSK 3.0 word lists are
+         redistributed from TheOpenDictionary/complete-hsk-vocabulary (MIT).
+
+
+MIT Licence
+-----------
+
+Copyright (c) 2026 HanPath
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Upstream attribution
+--------------------
+
+HSK 3.0 word lists: TheOpenDictionary/complete-hsk-vocabulary (MIT Licence)
+
+Deliberately NOT included:
+  - CC-CEDICT definitions (CC BY-SA 4.0). Shipping them would place a share-alike
+    obligation on this entire dataset, so the definition field is removed at
+    generation time rather than merely "documented as third-party".
+  - HanPath's own 13-language character glosses and error analyses, which are
+    original expression and are not part of this dataset.
